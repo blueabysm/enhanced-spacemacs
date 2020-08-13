@@ -41,6 +41,7 @@ values."
      ;; auto-completion
      better-defaults
      emacs-lisp
+     company
      git
      markdown
      org
@@ -57,6 +58,8 @@ values."
             shell-default-height 30
             shell-default-position 'bottom)
      editing-utils
+     fav-keys
+     window
      spell-checking
      syntax-checking
      version-control
