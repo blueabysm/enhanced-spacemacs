@@ -2,8 +2,8 @@
 ;;
 ;; Copyright (c) 2012-2017 Sylvain Benner & Contributors
 ;;
-;; Author: Lei Wang <sailing@Leis-MacBook-Pro.local>
-;; URL: https://github.com/syl20bnr/spacemacs
+;; Author: Lei Wang <ray.hackmylife@gmail.com>
+;; URL: https://github.com/blueabysm/enhanced-spacemacs
 ;;
 ;; This file is not part of GNU Emacs.
 ;;
@@ -59,6 +59,5 @@ Each entry is either:
         recipe.  See: https://github.com/milkypostman/melpa#recipe-format")
 
 (defun company/init-company ()
-  (use-package company
-    :ensure t))
+  (use-package company :ensure t))
 ;;; packages.el ends here

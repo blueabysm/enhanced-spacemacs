@@ -57,6 +57,7 @@ values."
             shell-default-position 'bottom)
      editing-utils
      fav-keys
+     company
      window
      spell-checking
      syntax-checking
