@@ -46,12 +46,11 @@ values."
      markdown
      org
      (osx :variables
-          mac-command-modifier 'meta
           osx-command-as 'meta
           osx-option-as 'super
           osx-control-as 'control
           osx-function-as nil
-          osx-right-command-as 'left
+          osx-right-command-as 'super
           osx-right-option-as 'left
           osx-right-control-as 'left
           osx-swap-option-and-command nil)

@@ -4,3 +4,8 @@
                     (interactive)
                     (if (y-or-n-p "Exit? ")
                         (save-buffers-kill-terminal))))
+(when (display-graphic-p)
+  (setq mac-command-modifier 'meta))
+
+(when (configuration-layer/package-usedp 'magit)
+  (global-set-key (kbd "M-<f12>") 'magit))
