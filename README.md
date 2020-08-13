@@ -3,15 +3,20 @@ Enhanced Spacemacs
 
 ## Introduction
 
-An layer organized Emacs configurations based on [syl20bnr/spacemacs](https://github.com/syl20bnr/spacemacs) with enhancements.
+A layer organized Emacs configurations based on [syl20bnr/spacemacs](https://github.com/syl20bnr/spacemacs) with enhancements.
 
 ## Install
 1. Clone this repository
-```
+```shell
 git clone https://github.com/blueabysm/enhanced-spacemacs.git ~/.emacs.d
 ```
-2. And then make necessary symbol links
+2. Fetch submodule `spacemacs`
+```shell
+git submodule update --init --recursive --depth 1
+
 ```
+3. And then make necessary symbol links
+```shell
 ln -s ~/.emacs.d/spacemacs.el ~/.spacemacs
 ```
-3. Launch emacs to finish rest of the installation.
+4. Launch emacs to finish rest of the installation.
