@@ -41,10 +41,12 @@ values."
      auto-completion
      better-defaults
      emacs-lisp
+     go
      git
      markdown
      org
      (osx :variables
+          mac-command-modifier 'meta
           osx-command-as 'meta
           osx-option-as 'super
           osx-control-as 'control
