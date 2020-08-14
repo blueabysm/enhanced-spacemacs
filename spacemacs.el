@@ -58,7 +58,6 @@ values."
      editing-utils
      fav-keys
      company
-     recent-files
      window
      spell-checking
      syntax-checking
