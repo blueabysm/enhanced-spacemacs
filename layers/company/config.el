@@ -1,4 +1,5 @@
 (setq tab-always-indent 'complete)
 (add-to-list 'completion-styles 'initials t)
-
-(add-hook 'after-init-hook 'global-company-mode)
+(setq auto-completion-enable-snippets-in-popup nil)
+;; Do not enable global company mode. The following shows how to enable global-company-mode, but I recommend you use company-mode per major-mode.
+;; (add-hook 'after-init-hook 'global-company-mode)
