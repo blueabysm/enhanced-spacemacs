@@ -41,8 +41,9 @@ values."
      better-defaults
      emacs-lisp
      git
-     markdown
      org
+     ;; org-mode must come before markdown because the later requires `org-load-modules-maybe'
+     markdown
      (osx :variables
           osx-option-as 'super
           osx-function-as nil
