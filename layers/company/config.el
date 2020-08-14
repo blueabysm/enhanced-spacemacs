@@ -10,5 +10,4 @@
                  go-mode-hook
                  markdown-mode-hook))
   (add-hook hook #'(lambda ()
-                     (company-mode)
-                     (company))))
+                     (company-mode))))
