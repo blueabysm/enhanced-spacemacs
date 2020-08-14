@@ -314,7 +314,6 @@ executes.
 before packages are loaded. If you are unsure, you should try in setting them in
 `dotspacemacs/user-config' first."
   (setq darkokai-mode-line-padding 1)
-  (setq default-directory "~/")
   (setq custom-file (concat user-emacs-directory "custom.el")))
 
 (defun dotspacemacs/user-config ()
