@@ -62,7 +62,6 @@ values."
      window
      spell-checking
      syntax-checking
-     spacemacs-ui
      (version-control :variables
                       version-control-diff-side 'left
                       version-control-diff-tool 'diff-hl)
@@ -318,8 +317,7 @@ executes.
 before packages are loaded. If you are unsure, you should try in setting them in
 `dotspacemacs/user-config' first."
   (setq darkokai-mode-line-padding 1)
-  (when (configuration-layer/package-usedp 'desktop)
-    (desktop-save-mode)))
+  (setq default-directory "~/"))
 
 (defun dotspacemacs/user-config ()
   "Configuration function for user code.
