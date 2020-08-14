@@ -44,9 +44,7 @@ values."
      markdown
      org
      (osx :variables
-          osx-command-as 'meta
           osx-option-as 'super
-          osx-control-as 'control
           osx-function-as nil
           osx-right-command-as 'super
           osx-right-option-as 'left
