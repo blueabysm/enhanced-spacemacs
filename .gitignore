@@ -7,3 +7,4 @@ auto-save-list
 transient
 .DS_Store
 /recentf
+*.elc
