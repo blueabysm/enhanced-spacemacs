@@ -330,8 +330,8 @@ explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
   (setq powerline-default-separator 'zigzag)
   (setq custom-file (concat user-emacs-directory "custom.el"))
-  (require 'helm)
-  (require 'tramp)
+  ;; set `mac-command-modifer' to 'meta after initialization
+  ;; since layer settings would be override.
   (when (display-graphic-p)
     (setq mac-command-modifier 'meta))
   ;; package-selected-packages was introduced since emacs25.1.
