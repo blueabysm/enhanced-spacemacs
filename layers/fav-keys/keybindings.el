@@ -7,3 +7,5 @@
 
 (when (configuration-layer/package-usedp 'magit)
   (global-set-key (kbd "M-<f12>") 'magit))
+
+(global-set-key (kbd "C-c C-f") 'find-name-dired)
