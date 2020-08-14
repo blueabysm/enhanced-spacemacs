@@ -12,7 +12,7 @@ git clone https://github.com/blueabysm/enhanced-spacemacs.git ~/.emacs.d
 ```
 2. Fetch submodule `spacemacs`
 ```shell
-git submodule update --init --recursive --depth 1
+cd ~/.emacs.d && git submodule update --init --recursive --depth 1
 
 ```
 3. And then make necessary symbol links
