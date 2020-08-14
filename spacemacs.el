@@ -329,6 +329,7 @@ you should place your code here."
   (require 'tramp)
   (when (display-graphic-p)
     (setq mac-command-modifier 'meta))
+  ;; package-selected-packages was introduced since emacs25.1. It is not very useful with spacemacs because the later would take over packages.
   (defun package--save-selected-packages (&optional value)
     "Set and (don't!) save `package-selected-packages' to VALUE."
     (when value
