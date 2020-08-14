@@ -8,3 +8,4 @@ transient
 .DS_Store
 /recentf
 *.elc
+custom.el
