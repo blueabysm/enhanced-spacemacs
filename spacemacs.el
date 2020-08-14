@@ -62,7 +62,10 @@ values."
      window
      spell-checking
      syntax-checking
-     version-control
+     spacemacs-ui
+     (version-control :variables
+                      version-control-diff-side 'left
+                      version-control-diff-tool 'diff-hl)
      themes-megapack
      )
    ;; List of additional packages that will be installed without being
