@@ -338,4 +338,6 @@ you should place your code here."
     (when value
       (setq package-selected-packages value))
     (unless after-init-time
-      (add-hook 'after-init-hook #'package--save-selected-packages))))
+      (add-hook 'after-init-hook #'package--save-selected-packages)))
+  (when (file-exists-p custom-file)
+    (load custom-file)))
