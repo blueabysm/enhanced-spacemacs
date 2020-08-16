@@ -63,6 +63,7 @@ values."
      (version-control :variables
                       version-control-diff-side 'left
                       version-control-diff-tool 'diff-hl)
+     package-dev
      themes-megapack
      )
    ;; List of additional packages that will be installed without being
