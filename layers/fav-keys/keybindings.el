@@ -11,4 +11,8 @@
 (when (configuration-layer/package-usedp 'helm)
   (global-set-key (kbd "C-x b") 'helm-mini))
 
+(when (configuration-layer/layer-usedp 'version-control)
+  (global-set-key (kbd "C-c C-n") 'spacemacs/vcs-next-hunk)
+  (global-set-key (kbd "C-c C-p") 'spacemacs/vcs-previous-hunk))
+
 (global-set-key (kbd "C-c C-f") 'find-name-dired)
