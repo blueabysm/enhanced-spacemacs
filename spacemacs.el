@@ -40,7 +40,8 @@ values."
      helm
      better-defaults
      emacs-lisp
-     git
+     (git :variables
+          magit-diff-refine-hunk t)
      org
      ;; org-mode must come before markdown because the later requires `org-load-modules-maybe'
      markdown
