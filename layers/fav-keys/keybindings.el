@@ -8,4 +8,7 @@
 (when (configuration-layer/package-usedp 'magit)
   (global-set-key (kbd "M-<f12>") 'magit))
 
+(when (configuration-layer/package-usedp 'helm)
+  (global-set-key (kbd "C-x b") 'helm-mini))
+
 (global-set-key (kbd "C-c C-f") 'find-name-dired)
