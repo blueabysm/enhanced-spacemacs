@@ -8,7 +8,7 @@ A layer organized Emacs configurations based on [syl20bnr/spacemacs](https://git
 ## Install
 1. Clone this repository
 ```shell
-git clone https://github.com/blueabysm/enhanced-spacemacs.git ~/.emacs.d
+git clone https://github.com/rayw000/enhanced-spacemacs.git ~/.emacs.d
 ```
 2. Fetch submodule `spacemacs`
 ```shell
