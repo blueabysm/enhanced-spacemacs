@@ -36,6 +36,10 @@ values."
      ;; Uncomment some layer names and press <SPC f e R> (Vim style) or
      ;; <M-m f e R> (Emacs style) to install them.
      ;; ----------------------------------------------------------------
+     (proxy :variables
+            use-proxy-http-proxy "localhost:41091"
+            use-proxy-https-proxy "localhost:41091")
+     go
      yaml
      docker
      nginx
@@ -68,9 +72,6 @@ values."
                       version-control-diff-side 'left
                       version-control-diff-tool 'diff-hl)
      package-dev
-     (proxy :variables
-            use-proxy-http-proxy "localhost:41091"
-            use-proxy-https-proxy "localhost:41091")
      themes-megapack
      )
    ;; List of additional packages that will be installed without being
