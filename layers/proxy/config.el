@@ -1,1 +1,2 @@
-(use-proxy-mode)
+(with-eval-after-load 'use-proxy
+  (use-proxy-mode))
