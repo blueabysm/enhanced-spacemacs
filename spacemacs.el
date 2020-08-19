@@ -41,6 +41,7 @@ values."
      nginx
      slack
      helm
+     go
      better-defaults
      emacs-lisp
      (git :variables
