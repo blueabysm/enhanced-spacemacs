@@ -324,7 +324,9 @@ executes.
 before packages are loaded. If you are unsure, you should try in setting them in
 `dotspacemacs/user-config' first."
   (setq darkokai-mode-line-padding 1)
-  (setq custom-file (concat user-emacs-directory "custom.el")))
+  (setq custom-file (concat user-emacs-directory "custom.el"))
+  ;; enable `aggressive-indent-global-mode' for `emacs-lisp-mode'
+  (add-hook 'emacs-lisp-mode-hook 'aggressive-indent-mode))
 
 (defun dotspacemacs/user-config ()
   "Configuration function for user code.
