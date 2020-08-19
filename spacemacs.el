@@ -42,6 +42,7 @@ values."
      slack
      helm
      go
+     python
      better-defaults
      emacs-lisp
      (git :variables
