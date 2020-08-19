@@ -15,4 +15,7 @@
   (global-set-key (kbd "C-c C-n") 'spacemacs/vcs-next-hunk)
   (global-set-key (kbd "C-c C-p") 'spacemacs/vcs-previous-hunk))
 
+(when (configuration-layer/package-usedp 'go-guru)
+  (define-key spacemacs-go-mode-map-root-map (kbd "M-.") 'go-guru-definition))
+
 (global-set-key (kbd "C-c C-f") 'find-name-dired)
