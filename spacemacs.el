@@ -43,6 +43,7 @@ values."
      helm
      go
      python
+     javascript
      better-defaults
      emacs-lisp
      (git :variables
