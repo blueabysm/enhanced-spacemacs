@@ -46,8 +46,6 @@ values."
      javascript
      better-defaults
      emacs-lisp
-     (git :variables
-          magit-diff-refine-hunk t)
      org
      ;; org-mode must come before markdown because the later requires `org-load-modules-maybe'
      markdown
@@ -67,9 +65,13 @@ values."
      window
      spell-checking
      syntax-checking
+     (git :variables
+          magit-diff-refine-hunk t)
      (version-control :variables
                       version-control-diff-side 'left
-                      version-control-diff-tool 'diff-hl)
+                      version-control-diff-tool 'diff-hl
+                      magit-diff-refine-hunk t)
+     github
      package-dev
      (proxy :variables
             use-proxy-http-proxy "localhost:41091"
