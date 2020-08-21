@@ -65,8 +65,7 @@ values."
      window
      spell-checking
      syntax-checking
-     (git :variables
-          magit-diff-refine-hunk t)
+     git
      (version-control :variables
                       version-control-diff-side 'left
                       version-control-diff-tool 'diff-hl
