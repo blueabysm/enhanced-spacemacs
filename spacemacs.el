@@ -514,7 +514,6 @@ configuration.
 It is mostly for variables that should be set before packages are loaded.
 If you are unsure, try setting them in `dotspacemacs/user-config' first."
   (setq darkokai-mode-line-padding 1)
-  (setq custom-file (concat user-emacs-directory "custom.el"))
   ;; enable `aggressive-indent-global-mode' for `emacs-lisp-mode'
   (add-hook 'emacs-lisp-mode-hook 'aggressive-indent-mode))
 
@@ -545,9 +544,7 @@ before packages are loaded."
     (when value
       (setq package-selected-packages value))
     (unless after-init-time
-      (add-hook 'after-init-hook #'package--save-selected-packages)))
-  (when (file-exists-p custom-file)
-    (load custom-file)))
+      (add-hook 'after-init-hook #'package--save-selected-packages))))
 
 ;; Do not write anything past this comment. This is where Emacs will
 ;; auto-generate custom variable definitions.
