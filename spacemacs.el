@@ -56,7 +56,7 @@ This function should only modify configuration layer settings."
      org
      markdown
      (osx :variables
-          osx-option-as 'super
+          osx-option-as 'meta
           osx-function-as nil
           osx-right-command-as 'super
           osx-right-option-as 'left
