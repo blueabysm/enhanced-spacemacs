@@ -575,7 +575,8 @@ This function is called at the very end of Spacemacs initialization."
        ("FIXME" . "#dc752f")
        ("XXX+" . "#dc752f")
        ("\\?\\?\\?+" . "#dc752f")))
-   '(pdf-view-midnight-colors '("#b2b2b2" . "#292b2e")))
+   '(pdf-view-midnight-colors '("#b2b2b2" . "#292b2e"))
+   '(url-proxy-services '(("https" . "localhost:41091"))))
   (custom-set-faces
    ;; custom-set-faces was added by Custom.
    ;; If you edit it by hand, you could mess it up, so be careful.
