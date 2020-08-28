@@ -9,3 +9,4 @@ transient
 /recentf
 *.elc
 custom.el
+.lsp-session*
