@@ -1,8 +1,8 @@
 ;;; packages.el --- proxy layer packages file for Spacemacs.
 ;;
-;; Copyright (c) 2012-2017 Sylvain Benner & Contributors
+;; Copyright (c) 2012-2018 Sylvain Benner & Contributors
 ;;
-;; Author: Lei Wang <sailing@Leis-MacBook-Pro.local>
+;; Author: Lei Wang <sailing@localhost>
 ;; URL: https://github.com/syl20bnr/spacemacs
 ;;
 ;; This file is not part of GNU Emacs.
@@ -59,6 +59,7 @@ Each entry is either:
         recipe.  See: https://github.com/milkypostman/melpa#recipe-format")
 
 (defun proxy/init-use-proxy ()
-  (use-package use-proxy :ensure t))
-
+  (use-package use-proxy
+    :config (use-proxy-mode)
+    :ensure t))
 ;;; packages.el ends here
