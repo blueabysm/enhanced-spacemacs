@@ -513,6 +513,7 @@ configuration.
 It is mostly for variables that should be set before packages are loaded.
 If you are unsure, try setting them in `dotspacemacs/user-config' first."
   (setq darkokai-mode-line-padding 1)
+  (setq history-delete-duplicates t)
   ;; enable `aggressive-indent-global-mode' for `emacs-lisp-mode'
   (add-hook 'emacs-lisp-mode-hook 'aggressive-indent-mode))
 
