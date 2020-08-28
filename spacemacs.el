@@ -38,7 +38,10 @@ This function should only modify configuration layer settings."
      ;; Uncomment some layer names and press `SPC f e R' (Vim style) or
      ;; `M-m f e R' (Emacs style) to install them.
      ;; ----------------------------------------------------------------
-     ;; auto-completion
+     (auto-completion :variables
+                      company-tooltip-limit 20
+                      company-idle-delay .1
+                      tab-always-indent 'complete)
      yaml
      html
      docker
@@ -67,7 +70,6 @@ This function should only modify configuration layer settings."
      ;;        shell-default-position 'bottom)
      editing-utils
      fav-keys
-     company
      window
      spell-checking
      syntax-checking
