@@ -535,8 +535,7 @@ before packages are loaded."
   (setq powerline-default-separator 'zigzag)
   ;; set `mac-command-modifer' to 'meta after initialization
   ;; since layer settings would be override.
-  (when (display-graphic-p)
-    (setq mac-command-modifier 'meta))
+  (setq mac-command-modifier 'meta)
   ;; package-selected-packages was introduced since emacs25.1.
   ;; It is not very useful with spacemacs because the later would take over packages.
   ;; Emacs doesn't provide a way to achieve this,
