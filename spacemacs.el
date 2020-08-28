@@ -578,12 +578,14 @@ This function is called at the very end of Spacemacs initialization."
        ("XXX+" . "#dc752f")
        ("\\?\\?\\?+" . "#dc752f")))
    '(pdf-view-midnight-colors '("#b2b2b2" . "#292b2e"))
-   '(url-proxy-services '(("https" . "localhost:41091"))))
+   '(url-proxy-services
+     '(("no_proxy" . "localhost,127.*,*.kuwo.cn,*.kuwo-inc.com,*.kuwo.run,10.*,172.17.*,192.168.*")
+       ("http" . "localhost:41091")
+       ("https" . "localhost:41091"))))
   (custom-set-faces
    ;; custom-set-faces was added by Custom.
    ;; If you edit it by hand, you could mess it up, so be careful.
    ;; Your init file should contain only one such instance.
    ;; If there is more than one, they won't work right.
-   '(default ((t (:background nil))))
    '(mode-line ((t (:background "#222226" :foreground "#b2b2b2" :box (:line-width (1 . 1) :color "gray53"))))))
   )
