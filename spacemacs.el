@@ -55,6 +55,7 @@ This function should only modify configuration layer settings."
      lsp
      multiple-cursors
      javascript
+     tern
      python
      org
      markdown
