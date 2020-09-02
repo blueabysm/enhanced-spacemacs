@@ -75,6 +75,7 @@ This function should only modify configuration layer settings."
      spell-checking
      syntax-checking
      git
+     vue
      (version-control :variables
                       version-control-diff-side 'left
                       version-control-diff-tool 'diff-hl
