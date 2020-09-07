@@ -547,7 +547,9 @@ before packages are loaded."
     (when value
       (setq package-selected-packages value))
     (unless after-init-time
-      (add-hook 'after-init-hook #'package--save-selected-packages))))
+      (add-hook 'after-init-hook #'package--save-selected-packages))
+    (when (fboundp 'diminish)
+      (diminish 'use-proxy-mode "Pxy"))))
 
 ;; Do not write anything past this comment. This is where Emacs will
 ;; auto-generate custom variable definitions.
