@@ -581,9 +581,9 @@ This function is called at the very end of Spacemacs initialization."
        ("\\?\\?\\?+" . "#dc752f")))
    '(pdf-view-midnight-colors '("#b2b2b2" . "#292b2e"))
    '(url-proxy-services
-     '(("no_proxy" . "localhost,127.*,*.kuwo.cn,*.kuwo-inc.com,*.kuwo.run,10.*,172.17.*,192.168.*")
+     '(("https" . "localhost:41091")
        ("http" . "localhost:41091")
-       ("https" . "localhost:41091"))))
+       ("no_proxy" . "localhost,127.*,*.kuwo.cn,*.kuwo-inc.com,*.kuwo.run,10.*,172.17.*,192.168.*"))))
   (custom-set-faces
    ;; custom-set-faces was added by Custom.
    ;; If you edit it by hand, you could mess it up, so be careful.
