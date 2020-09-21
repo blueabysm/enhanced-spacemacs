@@ -84,6 +84,10 @@ This function should only modify configuration layer settings."
                       magit-diff-refine-hunk t)
      github
      package-dev
+     (scratch :variables
+              persistent-scratch-save-file (concat spacemacs-cache-directory ".persistent-scratch")
+              persistent-scratch-autosave-interval 60
+              persistent-scratch-what-to-save '(point narrowing))
      (proxy :variables
             use-proxy-http-proxy "localhost:41091"
             use-proxy-https-proxy "localhost:41091")
