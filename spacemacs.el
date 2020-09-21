@@ -44,6 +44,8 @@ This function should only modify configuration layer settings."
                       tab-always-indent 'complete)
      yaml
      html
+     (typescript :variables
+                 typescript-indent-level 2)
      docker
      nginx
      slack
