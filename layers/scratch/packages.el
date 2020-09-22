@@ -70,6 +70,7 @@ Each entry is either:
 (defun scratch/init-unkillable-scratch ()
   (use-package unkillable-scratch
     :ensure t
+    :custom (unkillable-scratch-do-not-reset-scratch-buffer t)
     :config (unkillable-scratch t)))
 
 ;;; packages.el ends here

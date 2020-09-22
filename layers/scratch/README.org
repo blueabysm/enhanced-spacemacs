@@ -12,6 +12,7 @@
 * Table of Contents                                        :TOC_4_gh:noexport:
 - [[#description][Description]]
   - [[#features][Features:]]
+  - [[#customizations][Customizations:]]
 - [[#install][Install]]
 - [[#key-bindings][Key bindings]]
 
@@ -22,6 +23,12 @@ This layer makes your =*scratch*= buffer persistent and not killable.
 This layer makes your =*scratch*= buffer persistent and not killable.
 That makes sense if you want to save your drafts in =*scratch*= buffer temporarily.
 Things you write down in =*scratch*= buffer will be automatically saved and restored.
+
+Packages used by this layer:
+[[https://github.com/Fanael/persistent-scratch][persistent-scratch]], [[https://github.com/EricCrosson/unkillable-scratch][unkillable-scratch]]
+
+** Customizations:
+You can customize this layer by setting variables of package [[https://github.com/Fanael/persistent-scratch][persistent-scratch]] and [[https://github.com/EricCrosson/unkillable-scratch][unkillable-scratch]].
 
 * Install
 To use this configuration layer, add it to your =~/.spacemacs=. You will need to
@@ -34,6 +41,8 @@ file.
 |-------------+-----------------------------------|
 | C-x C-s     | save *scratch* buffer temporarily |
 | C-x C-w     | write *scratch* buffer to a file  |
+
+See URL: https://github.com/Fanael/persistent-scratch
 
 # Use GitHub URLs if you wish to link a Spacemacs documentation file or its heading.
 # Examples:
