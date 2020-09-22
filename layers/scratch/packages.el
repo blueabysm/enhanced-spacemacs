@@ -64,7 +64,7 @@ Each entry is either:
   (use-package persistent-scratch
     :ensure t
     :init (add-hook 'spacemacs-scratch-mode-hook
-                    (lambda () (persistent-scratch-mode)))
+                    'persistent-scratch-mode)
     :config (persistent-scratch-autosave-mode t)))
 
 (defun scratch/init-unkillable-scratch ()
