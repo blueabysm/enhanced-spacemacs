@@ -10,3 +10,5 @@ transient
 *.elc
 custom.el
 .lsp-session*
+projects
+notes
