@@ -48,7 +48,7 @@ This function should only modify configuration layer settings."
                  typescript-indent-level 2)
      docker
      nginx
-     slack
+     ;;slack
      helm
      go
      python
