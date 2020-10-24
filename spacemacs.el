@@ -44,6 +44,10 @@ This function should only modify configuration layer settings."
                       tab-always-indent 'complete)
      yaml
      html
+     rust
+     (cmake :variables
+            cmake-enable-cmake-ide-support t
+            cmake-tab-width 4)
      (typescript :variables
                  typescript-indent-level 2)
      docker
@@ -541,6 +545,8 @@ This function is called at the very end of Spacemacs startup, after layer
 configuration.
 Put your configuration code here, except for variables that should be set
 before packages are loaded."
+  (setq js2-strict-missing-semi-warning nil)
+  (setq js-indent-level 2)
   (setq make-backup-files nil)
   (setq powerline-default-separator 'zigzag)
   ;; set `mac-command-modifer' to 'meta after initialization
