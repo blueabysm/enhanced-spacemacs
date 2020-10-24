@@ -18,4 +18,7 @@
 (when (configuration-layer/package-usedp 'go-guru)
   (define-key spacemacs-go-mode-map-root-map (kbd "M-.") 'go-guru-definition))
 
+(when (fboundp 'helm-projectile-ag)
+  (global-set-key (kbd "C-c g") 'helm-projectile-ag))
+
 (global-set-key (kbd "C-c C-f") 'find-name-dired)
