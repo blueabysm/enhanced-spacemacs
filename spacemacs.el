@@ -65,6 +65,11 @@ This function should only modify configuration layer settings."
      python
      org
      markdown
+     (c-c++ :variables:
+            c-default-style "bsd"
+            c-basic-offset 2
+            indent-tabs-mode
+            'only tab-width 2)
      (osx :variables
           osx-option-as 'meta
           osx-function-as nil
