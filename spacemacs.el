@@ -94,10 +94,6 @@ This function should only modify configuration layer settings."
                       magit-diff-refine-hunk t)
      github
      package-dev
-     (scratch :variables
-              persistent-scratch-save-file (concat spacemacs-cache-directory ".persistent-scratch")
-              persistent-scratch-autosave-interval 60
-              persistent-scratch-what-to-save '(point narrowing))
      (proxy :variables
             use-proxy-http-proxy "localhost:41091"
             use-proxy-https-proxy "localhost:41091")
@@ -242,6 +238,14 @@ It should only modify the values of Spacemacs settings."
 
    ;; Default major mode of the scratch buffer (default `text-mode')
    dotspacemacs-scratch-mode 'emacs-lisp-mode
+
+   ;; If non-nil, *scratch* buffer will be persistent. Things you write down in
+   ;; *scratch* buffer will be saved and restored automatically.
+   dotspacemacs-scratch-buffer-persistent t
+
+   ;; If non-nil, `kill-buffer' on *scratch* buffer
+   ;; will bury it instead of killing.
+   dotspacemacs-scratch-buffer-unkillable t
 
    ;; Initial message in the scratch buffer, such as "Welcome to Spacemacs!"
    ;; (default nil)
