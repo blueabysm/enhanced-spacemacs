@@ -2,6 +2,3 @@
 	path = spacemacs
 	url = https://github.com/syl20bnr/spacemacs.git
 	branch = develop
-[submodule "elegant-emacs"]
-	path = elegant-emacs
-	url = https://github.com/rayw000/elegant-emacs.git
