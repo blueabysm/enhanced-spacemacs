@@ -44,12 +44,12 @@ This function should only modify configuration layer settings."
                       tab-always-indent 'complete)
      yaml
      html
-     rust
-     (cmake :variables
-            cmake-enable-cmake-ide-support t
-            cmake-tab-width 4)
-     (typescript :variables
-                 typescript-indent-level 2)
+     ;; rust
+     ;; (cmake :variables
+     ;;        cmake-enable-cmake-ide-support t
+     ;;        cmake-tab-width 4)
+     ;; (typescript :variables
+     ;;             typescript-indent-level 2)
      docker
      nginx
      ;;slack
@@ -65,11 +65,11 @@ This function should only modify configuration layer settings."
      python
      org
      markdown
-     (c-c++ :variables:
-            c-default-style "bsd"
-            c-basic-offset 2
-            indent-tabs-mode
-            'only tab-width 2)
+     ;; (c-c++ :variables:
+     ;;        c-default-style "bsd"
+     ;;        c-basic-offset 2
+     ;;        indent-tabs-mode
+     ;;        'only tab-width 2)
      (osx :variables
           osx-option-as 'meta
           osx-function-as nil
@@ -87,7 +87,7 @@ This function should only modify configuration layer settings."
      syntax-checking
      git
      vue
-     latex
+     ;; latex
      (version-control :variables
                       version-control-diff-side 'left
                       version-control-diff-tool 'diff-hl
@@ -98,6 +98,7 @@ This function should only modify configuration layer settings."
             use-proxy-http-proxy "localhost:41091"
             use-proxy-https-proxy "localhost:41091")
      themes-megapack
+     xkcd
      treemacs)
 
 
