@@ -86,7 +86,7 @@ This function should only modify configuration layer settings."
      spell-checking
      syntax-checking
      git
-     vue
+     ;; vue
      ;; latex
      (version-control :variables
                       version-control-diff-side 'left
