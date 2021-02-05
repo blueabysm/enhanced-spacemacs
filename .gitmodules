@@ -1,4 +1,4 @@
 [submodule "spacemacs"]
 	path = spacemacs
-	url = https://github.com/syl20bnr/spacemacs.git
+	url = https://github.com/rayw000/spacemacs.git
 	branch = develop
